@@ -1,8 +1,7 @@
-
 table {
     background-color: yellow;
     border: 1px solid black;
-    border-collapse: separate;
+    border-collapse: collapse;
 }
 
 th {
