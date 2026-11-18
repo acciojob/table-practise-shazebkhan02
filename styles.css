@@ -1,8 +1,7 @@
-/*  your css code here. If applicable */
+
 table {
     background-color: yellow;
     border: 1px solid black;
-    border-collapse: separate;
 }
 
 th, tr, td {
@@ -12,5 +11,5 @@ th, tr, td {
 caption {
     font-size: 30px;
     white-space: nowrap;
-    padding-bottom: 5px;
+    caption-side: top;
 }
