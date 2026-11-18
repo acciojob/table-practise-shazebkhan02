@@ -2,14 +2,22 @@
 table {
     background-color: yellow;
     border: 1px solid black;
+    border-collapse: separate;
 }
 
-th, tr, td {
+th {
+    border: 1px solid black;
+}
+
+tr {
+    border: 1px solid black;
+}
+
+td {
     border: 1px solid black;
 }
 
 caption {
     font-size: 30px;
     white-space: nowrap;
-    caption-side: top;
 }
